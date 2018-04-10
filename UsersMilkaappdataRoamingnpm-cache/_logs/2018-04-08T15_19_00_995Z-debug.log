@@ -1,0 +1,40 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Milka\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'webpack',
+1 verbose cli   'webpack-cli',
+1 verbose cli   '--save-dev' ]
+2 info using npm@5.6.0
+3 info using node@v8.9.1
+4 verbose npm-session bc367b3c34b79eae
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 verbose stack Error: Failed to parse json
+7 verbose stack Unexpected token
+7 verbose stack  in JSON at position 412 while parsing '{
+7 verbose stack   "name": "api-react",
+7 verbose stack   "version": "1'
+7 verbose stack     at parseError (C:\Users\Milka\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:436:11)
+7 verbose stack     at parseJson (C:\Users\Milka\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:104:26)
+7 verbose stack     at C:\Users\Milka\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:51:5
+7 verbose stack     at C:\Users\Milka\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16
+7 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:511:3)
+8 verbose cwd C:\Users\Milka\desktop\api-react
+9 verbose Windows_NT 6.1.7601
+10 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Milka\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "i" "webpack" "webpack-cli" "--save-dev"
+11 verbose node v8.9.1
+12 verbose npm  v5.6.0
+13 error file C:\Users\Milka\desktop\api-react\package.json
+14 error code EJSONPARSE
+15 error Failed to parse json
+15 error Unexpected token
+15 error  in JSON at position 412 while parsing '{
+15 error   "name": "api-react",
+15 error   "version": "1'
+16 error File: C:\Users\Milka\desktop\api-react\package.json
+17 error Failed to parse package.json data.
+17 error package.json must be actual JSON, not just JavaScript.
+17 error
+17 error Tell the package author to fix their package.json file. JSON.parse
+18 verbose exit [ 1, true ]

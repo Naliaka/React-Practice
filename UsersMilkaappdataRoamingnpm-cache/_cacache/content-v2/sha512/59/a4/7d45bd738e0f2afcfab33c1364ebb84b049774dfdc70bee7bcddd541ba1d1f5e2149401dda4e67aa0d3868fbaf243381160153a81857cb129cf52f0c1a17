@@ -1,0 +1,1 @@
+{"versions":{"1.0.0":{"name":"p-try","version":"1.0.0","devDependencies":{"ava":"*","xo":"*"},"_hasShrinkwrap":false,"directories":{},"dist":{"shasum":"cbc79cdbaf8fd4228e13f621f2b1a237c1b207b3","tarball":"https://registry.npmjs.org/p-try/-/p-try-1.0.0.tgz"},"engines":{"node":">=4"}}},"name":"p-try","dist-tags":{"latest":"1.0.0"},"modified":"2016-10-21T06:16:43.459Z"}
